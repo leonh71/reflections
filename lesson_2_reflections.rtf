@@ -10,8 +10,6 @@ What happens when you initialize a repository? Why do you need to do it?\
 \
 When you initialize a repository, metadata is created that helps Git track changes.\
 \
-\pard\pardeftab720
-\cf2 \expnd0\expndtw0\kerning0
 How is the staging area different from the working directory and the repository? What value do you think it offers?\
 \
 The staging area holds files to be put into the repository.\
@@ -28,69 +26,5 @@ How do the diagrams help you visualize the branch structure?\
 \
 We can see the parents as well as the point in code development when the branches split off.\
 \
-\
-small chance\
-no sym\
-test\
-know i put pressure on.\
-told by dr no worry\
-sure i checked\
-no call\
-\
-\
-        this.delayBeforeBullet = 10;\
-        this.shoot();\
-\
-    if (KEY_STATUS.space) \{\
-      if (this.delayBeforeBullet <= 0) \{\
-<<<<<<< HEAD\
-        for (var i = 0; i < this.bullets.length; i++) \{\
-          if (!this.bullets[i].visible) \{\
-            SFX.laser();\
-            var bullet = this.bullets[i];\
-            var rad = ((this.rot-90) * Math.PI)/180;\
-            var vectorx = Math.cos(rad);\
-            var vectory = Math.sin(rad);\
-            // move to the nose of the ship\
-            bullet.x = this.x + vectorx * 4;\
-            bullet.y = this.y + vectory * 4;\
-            bullet.vel.x = 6 * vectorx + this.vel.x;\
-            bullet.vel.y = 6 * vectory + this.vel.y;\
-            bullet.visible = true;\
-            break;\
-\
-\
-coins:\
-    if (KEY_STATUS.space) \{\
-      if (this.delayBeforeBullet <= 0) \{\
-        this.delayBeforeBullet = 10;\
-        this.shoot();\
-      \}\
-    \}\
-\
-\
-\
-\
-\
-\
-master:\
-    if (this.delayBeforeBullet > 0) \{\
-      this.delayBeforeBullet -= delta;\
-    \}\
-    if (KEY_STATUS.space) \{\
-      if (this.delayBeforeBullet <= 0) \{\
-        this.delayBeforeBullet = 10;\
-        this.shoot();\
-      \}\
-    \}\
-\
-    // limit the ship's speed\
-    if (Math.sqrt(this.vel.x * this.vel.x + this.vel.y * this.vel.y) > 8) \{\
-      this.vel.x *= 0.95;\
-      this.vel.y *= 0.95;\
-    \}\
-  \};\
-\pard\pardeftab720
-\cf2 \expnd0\expndtw0\kerning0
 \
 }
