@@ -2,3 +2,13 @@ What would be a reason to push files to GitHub?
 
   
 When would you want to use a remote repository rather than keeping all your work local?
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A clone is simply a copy of a repository.  Once the clone take place, there is no relationship between the original and the clone.
+A fork is a copy of a repository, from someones else’s GitHub account to yours.
+A branch is a logical departure from the progressions recorded in the repository.
+
